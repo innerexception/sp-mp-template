@@ -1,0 +1,1 @@
+export const CommodityNames:Array<string> = ['Widgets','Dogs','Tribbles','Screws','Quilts','Medical Equipment']

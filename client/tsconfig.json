@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "outDir": "./build/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "strictNullChecks": false,
+        "allowSyntheticDefaultImports": false,
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "noUnusedParameters": false,
+        "noUnusedLocals": false,
+        "target": "es5",
+        "lib": [
+            "dom",
+            "es7"
+        ]
+    },
+    "include": [
+        "./**/*",
+        "../**/*.d.ts", "../server/src/StarSystems.ts", "assets/Assets.ts", "../server/src/data/StarSystems.ts", "../server/src/data/Ships.ts", "../server/src/data/Weapons.ts", "../shared/Beam.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "./build",
+        "./assets",
+        "./server"
+    ]
+}

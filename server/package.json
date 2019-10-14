@@ -1,0 +1,29 @@
+{
+  "name": "headless_start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -outDir dist/ server.ts || webpack",
+    "start": "npm run build && node --inspect dist/server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^11.11.6",
+    "canvas": "^2.1.0",
+    "datauri": "^1.1.0",
+    "express": "^4.16.4",
+    "jsdom": "^13.0.0",
+    "uuid": "^3.3.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "websocket": "^1.0.29",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "file-loader": "^3.0.1",
+    "phaser": "^3.18.1"
+  }
+}
